@@ -101,7 +101,7 @@ class MainActivity : AppCompatActivity() {
     // создание движка
     private fun initWolframEngine() {
         waEngine = WAEngine().apply {
-            appID = "TUQAA6-8K6A8JLELV"
+            appID = "TUQAA6-*******"
             addFormat("plaintext")
         }
     }
